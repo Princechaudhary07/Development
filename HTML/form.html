@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/apis/user" method="post">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="user-email" placeholder="Enter email" maxlength="20" required></input>
+        <br> 
+        <label for=""journal>Journal</label>
+        <textarea id="journal" name="text" rows="5" cols="10">Hi there</textarea>
+        <br>
+        <label for="journey">Journey</label>
+        <select id="journey" name="anything">
+            <option value="good">good</option>
+            <option value="average">average</option>
+            <option value="bad">bad</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Form</button>
+    </form>
+    
+</body>
+</html>
