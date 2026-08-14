@@ -89,10 +89,7 @@ These files are designed for learning and practicing HTML fundamentals. Each fil
 - **Navigation**: `<a>`, `<nav>`
 - **Media**: `<img>`, `<svg>`
 
-## 📝 Notes
 
-- All files use the standard HTML5 doctype
-- Files include proper meta tags for character encoding and viewport settings
 - Each file is standalone and can be opened independently
 - The images folder contains assets referenced in various HTML files
 
