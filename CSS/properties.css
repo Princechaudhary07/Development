@@ -1,0 +1,46 @@
+/*content*/
+p{
+    color:black;
+    font-size:100px;
+    font-weight:200px;
+    font-style:italic;
+    background-color:#769f42;
+}
+/*box*/
+p{
+    box-sizing: border-box;
+    border:10px;
+    margin:20px;
+    width:auto;
+    height: auto;
+
+}
+/*css rule*/
+h1{
+    font-size:50px;
+    color:rgb(255,255,255);
+}
+/*font-weight*/
+h2{
+    font-weight:bold;
+    font-weight:400;
+    text-decoration:underline blue dotted;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+
+}
+/*list-style*/
+ul{
+    list-style:none;
+}
+/*text-spacing*/
+h3{
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', sans-serif;
+}
+img{
+    text-align: center;
+}
