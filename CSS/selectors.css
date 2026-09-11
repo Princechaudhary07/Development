@@ -1,0 +1,81 @@
+/*Selector, type selector and cascade*/
+h1{
+    font-size: 20px;
+    color: blue;
+}
+h1{
+    font-size: 50px;
+    color: red;
+}
+/*grouping selectors*/
+h2, h3{
+    font-size: 25px;
+    color: black;
+}
+/*id selector*/
+p{
+    color: red;
+}
+#blue-text{
+    color: blue;
+}
+/*Class Selector and combined styling using class selector*/
+.red-text{
+    color:red;
+}
+.btn{
+    color:blue;
+}
+.btn-primary{
+    font-size: 50px;
+}
+/*Pseudo state selector*/
+a:hover{
+    color: black;
+    font-size: 10px;
+}
+a:active{
+    color:red;
+}
+/*pseudo class selector*/
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(3){
+    color:grey;
+}
+/*combinator selector*/
+/*descendent*/
+div p{
+    color:blue;
+}
+/*direct descendent*/
+div>p{
+    color:green;
+}
+/*adjacent sibling*/
+h1+p{
+    color: black;
+}
+/*general sibling*/
+h1~p{
+    color:chocolate;
+}
+/*inheritence*/
+.hero-section{
+    color:green;
+}
+body{
+    color:black
+}
+#new{
+    text-align: center;
+}
+/*universal selector*/
+* {
+    color: blue;
+}
+

@@ -1,0 +1,8 @@
+/**{
+    color:red;
+}
+    */
+    /*pesudo element selector*/
+h1::first-letter{
+    color: blue;
+}
