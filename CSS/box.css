@@ -1,0 +1,55 @@
+/*background-color*/
+p{
+    /*background-color: #888888;*/
+    /*background-color: hsl(100, 120%, 80%);*/
+    background-color: rgba(100,200,100,0.5);
+}
+/*width and height*/
+p{
+    font-size: 50px;/*for height of block elements*/
+    border-width: 20px;
+    border-style:solid;
+    border-color: black;
+    border-top:10px solid green;
+    border:15px solid grey;
+}
+a{
+    font-size:40px;/*for width and height of inline elements*/
+    background-color: darkgrey;
+}
+img{
+    background-color: antiquewhite;
+}
+/*to change default box width and height*/
+img{
+    width: 150px;
+    height: 100px;
+    background-color: darkseagreen;
+    padding:10px 20px 10px 20px;/*padding*/
+}
+/*border radius*/
+img{
+    /*border-radius: 75px;pill box sizing and margin*/
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin:20px;
+    margin:10px 20px;
+    margin:10px 20px 30px;
+    margin:5px 10px 15px 20px;
+    height:auto;
+}
+/*global reset
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}*/
+/*element reset*/
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
