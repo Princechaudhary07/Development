@@ -1,0 +1,56 @@
+.box{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: baseline; */
+}
+/* .box1, .box2 { */
+  /* flex-basis: 100px; */
+  /* width: 100px;
+  height: 100px;
+  background-color: black;
+  
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    align-self: baseline;
+} */
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    order:1;
+    
+    
+}
+/* .box1{
+    background-color: black;
+    flex-grow: 1;
+}
+    */
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    order:2
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    order:0
+} 
+/* .box1{
+    flex-shrink:2;
+
+}
+.box2{
+    flex-shrink: 6;
+
+}
+.box3{
+    flex-shrink: 2;
+} */

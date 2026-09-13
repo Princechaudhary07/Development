@@ -1,0 +1,16 @@
+.low{
+    background-color: skyblue;
+    z-index: -1;
+    transform: scale(5,0,5);
+    
+}
+.high{
+    background-color: green;
+    z-index: -2;
+}
+.middle{
+    background-color: yellow;
+    z-index: 10;
+    box-shadow: 10px 20px 5px 30px blueviolet;
+    transition: blue cubic-bezier(0.445, 0.05, 0.55, 0.95) ease-in;
+}
