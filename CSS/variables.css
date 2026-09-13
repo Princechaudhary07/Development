@@ -1,0 +1,12 @@
+/* p{
+    --primary: #633f52;
+    background-color: var(--primary);
+} */
+:root{
+    --primary:#653d62;
+    --text-h1:50px;
+ }
+p{
+    /* background-color: var(--primary); */
+    background-color: calc((1000%/3)-5px);
+ }

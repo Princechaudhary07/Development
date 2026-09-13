@@ -1,0 +1,28 @@
+.box1{
+    width:1000px;
+    font-size:100px;
+    height:600px;
+    background-color: red;
+    line-height: 200%;
+    /*margin:2rem;
+    padding:5rem;*/
+    margin:0.5em;
+    padding:0.2em;
+
+}
+.box2{
+    width:40%;
+    height:30%;
+    background-color: blue;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    
+}
+html{
+    font-size: 10px;
+}
+.vwvh{
+    width: 20vw;
+    height:10vh;
+    background-color: aqua;
+}

@@ -1,0 +1,13 @@
+.box{
+    max-width: 200px;
+    background-color: beige;
+    height:500px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.large-box{
+    min-width: 100px;
+    background-color: beige;
+    min-height: 800px;
+    height:500px;
+}
